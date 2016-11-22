@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Breathe</title>
+        <!--        META SECTION-->
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=false" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+
+
+
+        <!--        STYLES SECTION -->
+
+        <link rel="stylesheet" href="css/jquery.mobile-1.0.min.css" /> 
+        <link rel="stylesheet" href="css/lightOrange.css" />
+
+        <!--        FONTS SECTION -->
+
+      
+        <!--        SCRIPT SECTION -->
+
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/jquery.mobile-1.0.min.js"></script> 
+
+    </head>
+    <body>
+        <!--    Page initialization      -->
+        <div data-role="page">
+
+
+
+            <!--            Header-->
+            <div data-role="header">
+                <h1>Breathe</h1>
+                <nav class="ui-grid-c">
+                    <div class="ui-block-a"><a href="index.html">Home</a></div>
+                    <div class="ui-block-b"><a href="portfolio.html">About</a></div>
+                    <div class="ui-block-c"><a href="blog.html">Blog</a></div>
+                    <div class="ui-block-d"><a class="navSelected" href="contact.html">Contact</a></div>
+                </nav>
+                <hr class="divider" />
+            </div>
+            <!--         Heder     END  -->
+
+
+
+
+            <!--            Main Content-->
+            <section data-role="content" class="wrappedWidth">
+                <section id="contact">
+                    <img class="mainIMG" src="img/map.jpg" alt="Map" />
+                    <h2>Contact</h2>
+                    <div class="article-wrapper">
+                        <p>Nam vestibulum, orci sit amet pellentesque molestie, tellus augue varius erat, a euismod augue arcu eu dui. Duis sollicitudin sapien a diam bibendum viverra. Donec congue iaculis porttitor. </p>                    
+                        <span class="name-contact">Coral Car</span>
+                        <span class="number-contact">*** **** ****</span>
+                        <span class="mail-contact">yourmail@mail.com</span>
+                    </div>
+                </section>
+
+                <section id="CommentForm">
+                    <h2>Send us an email</h2>
+                    <form action="processForm.php" method="post">
+                        <input type="text" name="senderName" id="name" value="" placeholder="Username" />
+                        <input type="text" name="senderEmail" id="mail" value="" placeholder="Mail" />
+                        <textarea name="message" id="text" cols="30" rows="10" placeholder="Text" ></textarea>
+                        <input data-theme="a" type="submit" value="Submit" name="send" />
+                    </form>
+                </section>
+            </section>
+            <!--  Main Content     END  -->
+
+
+
+
+
+
+            <!--         Footer   -->
+            <div data-role="footer" data-theme="a" data-position="inline">
+                <hr class="divider" />
+                <h4>Follow me on</h4>
+                <div class="ui-grid-c wrappedWidth shareIcons">
+                    <div class="ui-block-a"><a href="#"><img src="img/lightOrange/fb.png" alt="Facebook" /></a></div>
+                    <div class="ui-block-b"><a href="#"><img src="img/lightOrange/digg.png" alt="Digg" /></a></div>
+                    <div class="ui-block-c"><a href="#"><img src="img/lightOrange/twitter.png" alt="Twitter" /></a></div>
+                    <div class="ui-block-d"><a href="#"><img src="img/lightOrange/rss.png" alt="RSS" /></a></div>
+                </div>
+
+                <h4>Text Widget</h4>
+                <p>Dit augue est, elementum id commodo sit amet, pellentesque vel mi.
+                    Nulla eu ante id ligula posuere pellentesque. Vivamus rhoncus mattis tellus
+                    vitae pretium. Vestibulum ullamcorper congue nisl eget suscipit. Aenean feugiat odio 
+                    a velit scelerisque consequat. 
+                </p>
+
+           
+            </div>   
+            <!--  Footer     END  -->  
+
+        </div>
+        <!--     Page initialization    END  -->
+    </body>
+</html>
